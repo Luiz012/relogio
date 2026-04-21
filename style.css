@@ -1,0 +1,38 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centralização da página */
+body {
+    height: 100vh;
+    background: linear-gradient(100deg, #ffb71b, #ffb71b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa principal */
+.container {
+    background-color: #f2f0a1;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.container h1 {
+    margin-bottom: 15px;
+    color: #653024;
+}
+
+/* Relógio */
+#clock {
+    font-size: 48px;
+    font-weight: bold;
+    color: #653024;
+}
